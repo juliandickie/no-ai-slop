@@ -1,0 +1,18 @@
+{
+  "name": "no-ai-slop",
+  "version": "1.0.4",
+  "description": "Remove 20+ patterns of AI slop from any piece of writing without flattening your personal voice. Edit drafts into sharper, more human writing, or detect slop patterns without rewriting.",
+  "author": {
+    "name": "Peter Yang",
+    "url": "https://creatoreconomy.so"
+  },
+  "homepage": "https://github.com/petergyang/no-ai-slop",
+  "repository": "https://github.com/juliandickie/no-ai-slop",
+  "license": "MIT",
+  "keywords": [
+    "writing",
+    "editing",
+    "voice",
+    "ai-slop"
+  ]
+}
