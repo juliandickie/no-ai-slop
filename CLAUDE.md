@@ -21,9 +21,9 @@ The payoff - `diff SKILL.md skills/no-ai-slop/SKILL.md` is at all times the exac
 4. Bump `.claude-plugin/plugin.json` version to mirror upstream's `.codex-plugin/plugin.json` if it moved
 5. Commit the port as its own commit, separate from the merge commit
 
-## Relationship to humanise-copy
+## Relationship to anti-slop
 
-This skill overlaps [humanise-copy](https://github.com/juliandickie/humanise-copy), Julian's own published de-AI skill. They are kept as separate plugins deliberately - this fork tracks Peter Yang's pattern set and edit voice as upstream evolves it, humanise-copy carries the structural and rhythmic detection, the repair-damage checks, the whitelist, and the ship gate. Split-test findings between the two drive both the customisation of the shipping copy here and upstream contribution candidates. Do not blend the two skills into one file.
+This fork tracks Peter Yang's pattern set and edit voice as upstream evolves it. In Julian's copy pipeline, anti-slop is the read-only grade that runs last on AI-assisted drafts; this skill is a second opinion on how the prose reads. Keep them as separate plugins and do not blend them into one file.
 
 ## House style
 
